@@ -1,0 +1,52 @@
+h1,
+h2 {
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p,
+li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
+
+.gradient-background {
+  background: linear-gradient(-45deg, #92c7cf, #aad7d9, #fbf9f1, #e5e1da);
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
+}
+
+.icon_background_color {
+  background-color: #aad7d9;
+}
+#contactme {
+  background-color: #aad7d9;
+}
+
+#contactme:hover {
+  background-color: #92c7cf; /* Add a color change or other effects */
+  color: white;
+}
+
+#headshot {
+  border-radius: 50%;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
